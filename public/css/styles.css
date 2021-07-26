@@ -1,0 +1,36 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    font-family: arial;
+    background-color: rgb(53, 52, 52);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 2rem !important;
+    gap: 0.2rem;
+}
+button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
